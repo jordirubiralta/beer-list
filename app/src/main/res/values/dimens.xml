@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Text sizes -->
+    <dimen name="super_big_text">21sp</dimen>
+    <dimen name="big_text">17sp</dimen>
+    <dimen name="normal_text">15sp</dimen>
+    <dimen name="small_text">13sp</dimen>
+    <dimen name="tiny_text">11sp</dimen>
+
+    <!-- Dimens -->
+    <dimen name="item_margin">8dp</dimen>
+    <dimen name="bottom_search_margin">24dp</dimen>
+
+</resources>

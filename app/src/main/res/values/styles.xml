@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="text_tiny">
+        <item name="android:textSize">@dimen/tiny_text</item>
+    </style>
+
+    <style name="text_small">
+        <item name="android:textSize">@dimen/small_text</item>
+    </style>
+
+    <style name="text_normal">
+        <item name="android:textSize">@dimen/normal_text</item>
+    </style>
+
+    <style name="text_big">
+        <item name="android:textSize">@dimen/big_text</item>
+    </style>
+
+    <style name="text_super_big">
+        <item name="android:textSize">@dimen/super_big_text</item>
+    </style>
+
+    <style name="text_normal.bold">
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="text_big.bold">
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="text_super_big.bold">
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="form_text_field_style" parent="Widget.MaterialComponents.TextInputLayout.OutlinedBox">
+        <item name="boxStrokeColor">@color/black</item>
+        <item name="boxStrokeWidth">1dp</item>
+        <item name="boxStrokeWidthFocused">1dp</item>
+        <item name="endIconTint">@color/black</item>
+        <item name="hintEnabled">true</item>
+        <item name="android:textColorHint">@color/gray</item>
+        <item name="hintTextColor">@color/gray</item>
+    </style>
+
+</resources>

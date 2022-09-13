@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/navigation"
+    app:startDestination="@id/beerListFragment"
+    tools:ignore="InvalidNavigation">
+
+    <fragment
+        android:id="@+id/beerListFragment"
+        android:name="com.jrubiralta.beerlistapp.presentation.ui.beerlist.BeerListFragment"
+        android:label="@string/list_title"
+        tools:layout="@layout/fragment_beer_list">
+
+        <action
+            android:id="@+id/action_go_to_beer_detail"
+            app:destination="@+id/beerDetailFragment"
+            app:enterAnim="@anim/slide_in_right"
+            app:exitAnim="@anim/slide_out_left"
+            app:popEnterAnim="@anim/slide_in_left"
+            app:popExitAnim="@anim/slide_out_right" />
+
+    </fragment>
+
+    <fragment
+        android:id="@+id/beerDetailFragment"
+        android:name="com.jrubiralta.beerlistapp.presentation.ui.beerdetails.BeerDetailFragment"
+        android:label="@string/detail_title"
+        tools:layout="@layout/fragment_beer_detail">
+
+        <argument
+            android:name="model"
+            app:argType="com.jrubiralta.beerlistapp.domain.model.BeerModel"
+            app:nullable="false" />
+
+    </fragment>
+
+</navigation>

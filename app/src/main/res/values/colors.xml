@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+
+    <color name="accent">#282828</color>
+    <color name="white">#FFFFFF</color>
+    <color name="wild_sand">#F5F5F5</color>
+    <color name="gray_v_light">#F6F6F6</color>
+    <color name="gray_s_light">#EEEEEE</color>
+    <color name="clear_gray">#E9E9E9</color>
+    <color name="mercury">#E9E9E9</color>
+    <color name="light_gray">#D3D3D3</color>
+    <color name="nobel">#B4B4B4</color>
+    <color name="gray">#8C8C8C</color>
+    <color name="boulder_gray">#7D7D7D</color>
+    <color name="dove_gray">#636363</color>
+    <color name="skeleton_gray">#E8E8E8</color>
+    <color name="gondola">#050305</color>
+    <color name="diesel">#010001</color>
+    <color name="black">#000000</color>
+    <color name="carnation">#F14A5F</color>
+    <color name="bittersweet">#FF6666</color>
+    <color name="fair_pink">#FFE9E9</color>
+    <color name="caribbean_green">#00CA8D</color>
+    <color name="mountain_meadow">#16C691</color>
+    <color name="information_color">#4A90F1</color>
+    <color name="warning_color">#F5A623</color>
+    <color name="warning_color_background">#FFF9EF</color>
+    <color name="light_warning_color">#FFE6BA</color>
+    <color name="weak_gray_divider">#FFF5F5F5</color>
+    <color name="card_view_grey">#E9E9E9</color>
+    <color name="gray_skeleton_gradient">#F0F0F0</color>
+    <color name="pink_5">#FF0058</color>
+    <color name="blue_light">#72C1DE</color>
+
+</resources>
